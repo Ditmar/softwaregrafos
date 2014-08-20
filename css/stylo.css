@@ -1,0 +1,26 @@
+.horizontal{
+	margin-top:50px;
+}
+.horizontal li img{
+	width:50%;
+	height:50%;
+}
+.horizontal li{
+	display:inline-block;
+	vertical-align:top;
+}
+b{
+	font-size: 30px;
+}
+.color{
+	color:#fff;
+	padding:10px;
+	background-color:#000;
+	border-radius:10px;
+}
+.lista{
+	list-style:decimal;
+}
+img{
+	width:95%;
+}

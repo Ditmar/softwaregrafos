@@ -1,0 +1,22 @@
+body{
+  margin:0;
+  padding:20px;
+  font:8px Arial, sans-serif;
+  background:#f9f9f9;
+}
+
+.menu li{
+	list-style:none;
+	display:inline-block;
+	vertical-align:top;
+	background:#000;
+	color:#fff;
+	padding:10px;
+	cursor:pointer;
+	font-size:15px;
+}
+
+.menu .color{
+	background:#fff;
+	color:#000;
+}
