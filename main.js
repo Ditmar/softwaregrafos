@@ -191,7 +191,7 @@
   var dirigida=false;
   var globalCount=0;
   $(document).ready(function(){
-    var sys = arbor.ParticleSystem(0, 0, 0.1) // create the system with sensible repulsion/stiffness/friction
+    var sys = arbor.ParticleSystem(100, 100, 0.1)
     sys.parameters({gravity:true}) // use center-gravity to make the graph settle nicely (ymmv)
     sys.renderer = Renderer("#viewport") // our newly created renderer will have its .init() method called shortly by sys...
 
